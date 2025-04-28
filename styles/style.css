@@ -24,67 +24,76 @@ body {
   background-blend-mode: overlay;
 }
 
-.section-content h4, h1 {
+.section-content h4,
+h1 {
   color: rgb(255, 255, 255);
   text-align: center;
-  
+
 }
-.section-content{
+
+.section-content {
   justify-content: center;
   align-items: center;
   height: 600px;
   display: flex;
   flex-direction: column;
 }
-.section-content h4{
-font-size: 24px;
-font-weight: 400;
-line-height: 30px;
+
+.section-content h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
 }
-.section-content h1{
+
+.section-content h1 {
   font-size: 52px;
-font-weight: 800;
-line-height: 50px;
-margin-top: 20px;
+  font-weight: 800;
+  line-height: 50px;
+  margin-top: 20px;
 }
 
 /* holiday section */
-.holiday-section{
+.holiday-section {
   width: 800px;
   height: 620px;
   margin: 0 auto;
   margin-top: 30px;
 }
-.holiday-content h1{
+
+.holiday-content h1 {
   text-align: center;
   color: rgb(255, 0, 0);
-font-size: 55px;
-font-weight: 700;
-line-height: 80px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 80px;
 }
-.holiday-content p{
+
+.holiday-content p {
   color: rgb(255, 0, 0);
-font-size: 18px;
-font-weight: 400;
-line-height: 15px;
-text-align: center;
-margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 20px;
 }
+
 .holiday-content h3 {
   color: rgb(7, 2, 17);
-font-size: 28px;
-font-weight: 600;
-line-height: 40px;
-text-align: center;margin-top: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 10px;
 }
-.holiday-image img{
+
+.holiday-image img {
   width: 800px;
   height: 400px;
   margin-top: 50px;
 }
 
 /* welcome section */
-.welcome-container{
+.welcome-container {
   width: 1320px;
   height: 500px;
   margin: 0 auto;
@@ -98,33 +107,77 @@ text-align: center;margin-top: 10px;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
 }
-.welcome-content h1{
+
+.welcome-content h1 {
   color: rgb(255, 255, 255);
-font-size: 60px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 11%;
-text-align: left;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 11%;
+  text-align: left;
 }
-.welcome-content p{
+
+.welcome-content p {
   color: rgba(255, 255, 255, 0.8);
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;
-margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 20px;
 }
-.btn{
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-color: white;
-background-color: rgba(0, 0, 0, 0.4);
-border: none;
-margin-top: 30px;
-margin-left: 20px;
+
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  margin-top: 30px;
+  margin-left: 20px;
 }
-.welcome-image img{
+
+.welcome-image img {
   width: 300px;
   height: 390px;
+}
+
+/* time section */
+.time-section {
+  width: 1320px;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),
+   rgba(255, 0, 0, 0) 100%);
+   margin: 0 auto;
+   margin-top: 50px;
+}
+.time-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 240px;
+}
+.time-content h3{
+font-size: 24px;
+font-weight: 600;
+line-height: 45px;
+text-align: center;
+margin-top: 30px;
+}
+.color-primary{
+color: rgb(255, 0, 0);
+}
+.btn-primary{
+  border-radius: 8px;
+
+background: rgb(255, 0, 0);
+color: white;
+padding: 10px 20px;
+border: none;
+font-size: 14px;
+font-weight: bold;
+margin-top: 40px;
 }
