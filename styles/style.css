@@ -148,11 +148,12 @@ h1 {
   height: 300px;
   border-radius: 16px;
   background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),
-   rgba(255, 0, 0, 0) 100%);
-   margin: 0 auto;
-   margin-top: 50px;
+      rgba(255, 0, 0, 0) 100%);
+  margin: 0 auto;
+  margin-top: 50px;
 }
-.time-content{
+
+.time-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,77 +161,90 @@ h1 {
   text-align: center;
   height: 240px;
 }
-.time-content h3{
-font-size: 24px;
-font-weight: 600;
-line-height: 45px;
-text-align: center;
-margin-top: 30px;
+
+.time-content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 30px;
 }
-.color-primary{
-color: rgb(255, 0, 0);
+
+.color-primary {
+  color: rgb(255, 0, 0);
 }
-.btn-primary{
+
+.btn-primary {
   border-radius: 8px;
 
-background: rgb(255, 0, 0);
-color: white;
-padding: 10px 20px;
-border: none;
-font-size: 14px;
-font-weight: bold;
-margin-top: 40px;
+  background: rgb(255, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 40px;
 }
 
 /* offer section */
-.offer-section{
+.offer-section {
   width: 1320px;
   height: 400px;
   display: flex;
   margin: 0 auto;
   margin-top: 50px;
 }
-.left-side{
+
+.left-side {
   width: 33%;
 }
-.middle-side{
+
+.middle-side {
   width: 33%;
-  
+
 }
-.right-side{
+
+.right-side {
   width: 33%;
 }
-.left-side h6{
+
+.left-side h6 {
   color: rgb(255, 0, 0);
-font-size: 20px;
-font-weight: 400;
-line-height: 16px;
-margin-top: 80px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-top: 80px;
 }
-.left-side h2{
+
+.left-side h2 {
   color: rgb(7, 2, 17);
-font-size: 40px;
-font-weight: 900;
-line-height: 50px;
-text-align: left;
-margin-top: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 50px;
+  text-align: left;
+  margin-top: 20px;
 }
-.left-side p{
+
+.left-side p {
   color: rgba(7, 2, 17, 0.6);
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-text-align: left;margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 10px;
 }
+
 .middle-side {
   border: 15px solid red;
   border-radius: 50%;
 }
-.middle-side img{
+
+.middle-side img {
   width: 100%;
   height: 100%;
 }
-.right-side h2{
+
+.right-side h2 {
   color: rgb(255, 0, 0);
   font-size: 35px;
   font-weight: 700;
@@ -239,16 +253,95 @@ text-align: left;margin-top: 10px;
   margin-left: 80px;
   margin-top: 80px;
 }
-.right-side p{
+
+.right-side p {
   color: rgba(7, 2, 17, 0.6);
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-margin-left: 80px;
-margin-top: 10px;
-}
-.right-side img{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
   margin-left: 80px;
   margin-top: 10px;
+}
+
+.right-side img {
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+/* holiday section */
+.holiday-sale-section {
+  width: 1320px;
+  height: 735px;
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+}
+
+.holiday-sale-content {
+  text-align: center;
+}
+
+.holiday-sale-content h5 {
+  color: rgb(7, 2, 17);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.holiday-sale-content h1 {
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 45px;
+  color: #070211;
+  margin-top: 20px;
+}
+
+.holiday-sale-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 30px;
+}
+
+.holiday-color {
+  width: 1320px;
+  height: 180px;
+  border-radius: 16px 0px 16px 16px;
+  background: rgb(255, 0, 0);
+  position: absolute;
+  margin-top: 28%;
+  
+}
+.giftbox{
+  width: 1320px;
+  height: 550px;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.gift-img-1{
+  width: 674.82px;
+height: 577.96px;
+}
+.gift-img-1 img{
+  width: 100%;
+  height: 90%;
+}
+.gift-img-2 {
+ width: 450px;
+height: 340px;
+
+}
+.gift-img-2 img{
+ width: 100%;
+height: 100%;
+}
+.discount{
+  position: absolute;
+  top: 32%;
+  left: 55%;
 }
